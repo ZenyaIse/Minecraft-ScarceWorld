@@ -105,26 +105,26 @@
     "creature": [
       {
         "type": "minecraft:sheep",
-        "maxCount": 1,
-        "minCount": 0,
+        "maxCount": 2,
+        "minCount": 1,
         "weight": 12
       },
       {
         "type": "minecraft:pig",
-        "maxCount": 1,
-        "minCount": 0,
+        "maxCount": 2,
+        "minCount": 1,
         "weight": 10
       },
       {
         "type": "minecraft:chicken",
-        "maxCount": 1,
-        "minCount": 0,
+        "maxCount": 2,
+        "minCount": 1,
         "weight": 10
       },
       {
         "type": "minecraft:cow",
-        "maxCount": 1,
-        "minCount": 0,
+        "maxCount": 2,
+        "minCount": 1,
         "weight": 8
       }
     ],
@@ -182,8 +182,8 @@
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "maxCount": 6,
-        "minCount": 4,
+        "maxCount": 3,
+        "minCount": 1,
         "weight": 10
       }
     ],
