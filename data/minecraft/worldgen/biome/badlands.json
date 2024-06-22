@@ -109,7 +109,7 @@
     "creature": [
       {
         "type": "minecraft:armadillo",
-        "maxCount": 2,
+        "maxCount": 1,
         "minCount": 1,
         "weight": 6
       }
