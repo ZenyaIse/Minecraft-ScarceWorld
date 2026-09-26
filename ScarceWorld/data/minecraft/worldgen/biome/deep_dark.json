@@ -1,45 +1,29 @@
 {
   "attributes": {
-    "minecraft:gameplay/can_pillager_patrol_spawn": false,
-    "minecraft:gameplay/increased_fire_burnout": true,
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.overworld.deep_dark"
+      }
+    },
     "minecraft:gameplay/natural_mob_spawns": {
       "argument": {
         "spawn_costs": {},
         "spawns_by_category": {
-          "ambient": [
-            {
-              "type": "minecraft:bat",
-              "count": 8,
-              "weight": 10
-            }
-          ],
-          "creature": [
-            {
-              "type": "minecraft:mooshroom",
-              "count": {
-                "type": "minecraft:uniform",
-                "max_inclusive": 8,
-                "min_inclusive": 4
-              },
-              "weight": 8
-            }
-          ],
-          "underground_water_creature": [
-            {
-              "type": "minecraft:glow_squid",
-              "count": {
-                "type": "minecraft:uniform",
-                "max_inclusive": 6,
-                "min_inclusive": 4
-              },
-              "weight": 10
-            }
-          ]
+          "ambient": [],
+          "axolotls": [],
+          "creature": [],
+          "misc": [],
+          "monster": [],
+          "underground_water_creature": [],
+          "water_ambient": [],
+          "water_creature": []
         }
       },
       "modifier": "overlay"
     },
-    "minecraft:visual/sky_color": "#77a8ff",
+    "minecraft:visual/sky_color": "#78a7ff",
     "minecraft:gameplay/creature_world_gen_spawn_probability": 0.025
   },
   "carvers": [
@@ -47,16 +31,13 @@
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-  "downfall": 1.0,
+  "downfall": 0.4,
   "effects": {
     "water_color": "#3f76e4"
   },
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
+    [],
     [
       "minecraft:amethyst_geode"
     ],
@@ -97,23 +78,25 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
+    [
+      "minecraft:sculk_vein",
+      "minecraft:sculk_patch_deep_dark"
+    ],
     [],
     [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
       "minecraft:glow_lichen",
-      "minecraft:mushroom_island_vegetation",
-      "minecraft:brown_mushroom_taiga",
-      "minecraft:red_mushroom_taiga",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "minecraft:patch_tall_grass_2",
+      "minecraft:trees_plains",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_pumpkin"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,
-  "temperature": 0.9
+  "temperature": 0.8
 }
